@@ -1,0 +1,81 @@
+
+
+#titulo
+{
+    color:rebeccapurple;
+}
+
+/* Grid */
+.grid {
+	display: grid;
+}
+/* O repeat vai repetir o número de colunas */
+.grid-template-columns-4 {
+	grid-template-columns: repeat(3, 1fr);
+}
+.item {
+    
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+body {
+	font-family: monospace;
+	color: #333;
+	margin: 0px;
+	padding-bottom: 60px;
+}
+
+body > div {
+	padding: 40px 0;
+}
+
+.menu
+{
+    background-color:rgb(240, 183, 240);
+    width: 165px;
+    display: inline-block;
+    
+    
+}
+li{
+    list-style: none;
+}
+
+.texto
+{
+ font-size: 14px;  
+ font-style: oblique;
+  padding: 10px 20px 10px 10px;
+ margin: 5px 5px
+}
+#roxo{
+    background-color: #E3D2F4;
+}
+
+#azul{
+    background-color: #AFDEFA;
+}
+#verde{
+    background-color: #BDF6E3;
+
+}
+.azulescuro{
+   background-color: steelblue;
+}
+
+.verdeescuro{
+    background-color: #7af3cb;
+
+ }
+ .roxoescuro{
+    background-color: #a767e7;
+    
+ }
+ p{
+   font-family: 'Noto Sans JP', sans-serif;
+   font-weight: bolder;
+ }
+ 
